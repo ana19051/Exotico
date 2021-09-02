@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: black;
+  font-family: Barlow Condensed;
+  text-align: justify;
+}
+
+.ocultar {
+  display: none;
+}
+
+.titulo {
+  font-family: Barlow Condensed;
+  font-size: 40px;
+  color: #EDEDED;
+  -webkit-text-stroke: 2px #163D26;
+  /*margin-bottom: 190px;
+  /*font-style: italic;*/
+}
+
+section {
+  position: relative;
+  width: 360px;
+  height: 620px;
+  text-align: center;
+  margin: 0 auto;
+}
