@@ -1,0 +1,35 @@
+$color: #caf0e4;
+$color_indice: #146F51;
+$color_indice_h: #045137;
+$letra: Barlow Condensed;
+$tamaño_let_indice: 18px;
+$mleft_indice: 10px;
+$mtop_indice: 20px;
+$radio_borde: 50%;
+$ancho_indice: 100px;
+$alto_indice: 100px;
+
+#indice{
+  background: $color;
+}
+.boton_indice{
+  background-color: $color_indice;
+  /*background-image: url("img/anfibio.jpg");*/
+  color:white;
+  font-family: $letra;
+  font-size: $tamaño_let_indice;
+  text-decoration: none;
+    font-weight: 600px;
+    border-radius: $radio_borde;
+    border: 2px solid #000;
+    margin-left: $mleft_indice;
+    margin-top: $mtop_indice;
+    display: block;
+    width: $ancho_indice;
+    height: $alto_indice;
+    cursor: hand;
+}
+.boton_indice:hover{
+  background-color: $color_indice_h;
+  cursor: pointer;
+}
