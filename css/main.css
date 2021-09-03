@@ -39,17 +39,47 @@ section{
 #lugares{
 	background: #caf0e4;
 }
-#quienes{
-	background: #caf0e4;
-}	
 #lugares p{
 	margin:25px;
 	text-align: left;
 }
-#animales{
-	width: 400px;
+#quienes{
 	background: #caf0e4;
 }	
+#anfibios{
+	width: 400px;
+	height:620px;
+	background: #caf0e4;
+	overflow: scroll;
+}
+#aves{
+	width: 400px;
+	height:620px;
+	background: #caf0e4;
+	overflow: scroll;
+}	
+#mamiferos{
+	width: 400px;
+	height:620px;
+	background: #caf0e4;
+	overflow: scroll;
+}
+#mariposas{
+	width: 400px;
+	height:620px;
+	background: #caf0e4;
+}
+#peces{
+	width: 400px;
+	height:620px;
+	background: #caf0e4;
+}	
+#reptiles{
+	width: 400px;
+	height:620px;
+	background: #caf0e4;
+	overflow: scroll;
+}			
 .boton{
 	background-color: #146F51;
 	color:white;
@@ -105,6 +135,104 @@ section{
   	height: 100px;
   	padding: 15px;
 }
-.texto_anfibio{
+.texto_indice{
 	text-align: left;
 }
+
+.img_ave{
+	display: block;
+	border-radius: 50%;
+  	width: 100px;
+  	height: 100px;
+  	padding: 15px;
+}
+.img_foto{
+	display: block;
+	border-radius: 50%;
+  	width: 140px;
+  	height: 140px;
+  	padding: 15px;
+}
+
+
+/*.preview-box{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0.9);
+  background: #fff;
+  max-width: 300px;
+  width: 100%;
+  z-index: 5;
+  opacity: 0;
+  pointer-events: none;
+  border-radius: 3px;
+  padding: 0 5px 5px 5px;
+  box-shadow: 0px 0px 15px rgba(0,0,0,0.2);
+}
+.preview-box.show{
+  opacity: 1;
+  pointer-events: auto;
+  transform: translate(-50%, -50%) scale(1);
+  transition: all 0.3s ease;
+}
+.preview-box .details{
+  display: flex;
+  align-items: center;
+  padding: 12px 15px 12px 10px;
+  justify-content: space-between;
+}
+.preview-box .details .title{
+  display: flex;
+  font-size: 18px;
+  font-weight: 400;
+}
+.details .title p{
+  margin: 0 5px;
+}
+.details .title p.current-img{
+  font-weight: 500;
+}
+.details .icon{
+  color: #007bff;
+  font-size: 20px;
+  cursor: pointer;
+}
+.preview-box .image-box{
+  display: flex;
+  width: 100%;
+  position: relative;
+}
+.image-box .slide{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #fff;
+  font-size: 30px;
+  cursor: pointer;
+  height: 50px;
+  width: 60px;
+  line-height: 50px;
+  text-align: center;
+  border-radius: 3px;
+}
+.slide.prev{
+  left: 0px;
+}
+.slide.next{
+  right: 0px;
+}
+.image-box img{
+  width: 100%;
+  border-radius: 0 0 3px 3px;
+}
+.shadow{
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 2;
+  display: none;
+  background: rgba(0,0,0,0.45);
+}*/
