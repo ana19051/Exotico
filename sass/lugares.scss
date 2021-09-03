@@ -1,0 +1,12 @@
+$color: #caf0e4;
+$margen_lugar: 25px;
+$alineacion_lugar: left;
+
+#lugares{
+	background: $color;
+
+	p{
+		margin: $margen_lugar;
+		text-align: $alineacion_lugar;
+	}
+}

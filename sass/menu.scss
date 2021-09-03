@@ -1,0 +1,33 @@
+$color: #caf0e4;
+$color_boton: #146F51;
+$color_boton_h: #045137;
+$color_letra: white;
+$letra: Barlow Condensed;
+$tamaño_letra: 18px;
+$radio: 6px;
+$ancho: 220px;
+$alto: 140px;
+
+#home{
+	background: $color;
+}
+.boton_menu{
+	background-color: $color_boton;
+	color: $color_letra;
+	font-family: $letra;
+	font-size: $tamaño_letra;
+	padding: 10px;
+	text-decoration: none;
+    font-weight: 600;
+    border-radius: $radio;
+    border: 2px solid #000;
+
+    :hover{
+		background-color: $color_boton_h;
+		cursor: pointer;
+	}
+}
+.menu{
+	width: $ancho;
+  	height: $alto;
+}

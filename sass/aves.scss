@@ -1,0 +1,21 @@
+$color: #caf0e4;
+$ancho: 400px;
+$ancho_img: 100px;
+$alto: 620px;
+$alto_img: 100px;
+$radio: 50%;
+$padding: 15px;
+
+#aves{
+	width: $ancho;
+	height: $alto;
+	background: $color;
+	overflow: scroll;
+}	
+.img_ave{
+	display: block;
+	border-radius: $radio;
+  	width: $ancho_img;
+  	height: $alto_img;
+  	padding: $padding;
+}

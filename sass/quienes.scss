@@ -1,0 +1,15 @@
+$color: #caf0e4;
+$radio: 50%;
+$ancho: 140px;
+$alto: 140px;
+
+#quienes{
+	background: $color;
+}	
+.img_foto{
+	display: block;
+	border-radius: $radio;
+  	width: $ancho;
+  	height: $alto;
+  	padding: 15px;
+}

@@ -1,0 +1,10 @@
+$color: #caf0e4;
+$ancho: 400px;
+$alto: 620px;
+
+#reptiles{
+	width: $ancho;
+	height: $alto;
+	background: $color;
+	overflow: scroll;
+}

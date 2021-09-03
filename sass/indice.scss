@@ -8,6 +8,7 @@ $mtop_indice: 20px;
 $radio_borde: 50%;
 $ancho_indice: 100px;
 $alto_indice: 100px;
+$alineacion: left;
 
 #indice{
   background: $color;
@@ -19,17 +20,23 @@ $alto_indice: 100px;
   font-family: $letra;
   font-size: $tamaño_let_indice;
   text-decoration: none;
-    font-weight: 600px;
-    border-radius: $radio_borde;
-    border: 2px solid #000;
-    margin-left: $mleft_indice;
-    margin-top: $mtop_indice;
-    display: block;
-    width: $ancho_indice;
-    height: $alto_indice;
-    cursor: hand;
-}
-.boton_indice:hover{
+  font-weight: 600px;
+  border-radius: $radio_borde;
+  border: 2px solid #000;
+  margin-left: $mleft_indice;
+  margin-top: $mtop_indice;
+  display: block;
+  width: $ancho_indice;
+  height: $alto_indice;
+  cursor: hand;
+
+
+  :hover{
   background-color: $color_indice_h;
   cursor: pointer;
+  }
+}
+
+.texto_indice{
+  text-align: $alineacion;
 }
