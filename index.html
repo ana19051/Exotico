@@ -7,7 +7,7 @@
 	<link rel="stylesheet" href="css/main.css">
 	<link rel="stylesheet" href="css/animate.min.css"/>
 	<style type="text/css"></style>
-	<script></script>
+	<script src="js/iconos.js"></script>
 </head>
 <body>
 	<!-- Splash -->
@@ -38,14 +38,14 @@
 		<br>
 		<table class="default">
 			<tr>
-				<td><button href="javascript:void(0);" id="respuesta__5" class="boton_indice">Anfibios</button>&nbsp;&nbsp;</td>
-    			<td><button href="javascript:void(0);" id="respuesta_6" class="boton_indice">Aves</button>&nbsp;&nbsp;</td>
-    			<td><button href="javascript:void(0);" id="respuesta_7" class="boton_indice">Mamiferos</button>&nbsp;&nbsp;</td>
+				<td><button href="javascript:void(0);" id="opcion__5" class="boton_indice">Anfibios</button>&nbsp;&nbsp;</td>
+    			<td><button href="javascript:void(0);" id="opcion__6" class="boton_indice">Aves</button>&nbsp;&nbsp;</td>
+    			<td><button href="javascript:void(0);" id="opcion__7" class="boton_indice">Mamiferos</button>&nbsp;&nbsp;</td>
   			</tr>
   			<tr>
-    			<td><button href="javascript:void(0);" id="respuesta_8" class="boton_indice">Mariposas</button><br><br></td>
-    			<td><button href="javascript:void(0);" id="respuesta_8" class="boton_indice">Peces</button><br><br></td>
-    			<td><button href="javascript:void(0);" id="respuesta_8" class="boton_indice">Reptiles</button><br><br></td>
+    			<td><button href="javascript:void(0);" id="opcion__8" class="boton_indice">Mariposas</button><br><br></td>
+    			<td><button href="javascript:void(0);" id="opcion__9" class="boton_indice">Peces</button><br><br></td>
+    			<td><button href="javascript:void(0);" id="opcion__10" class="boton_indice">Reptiles</button><br><br></td>
   			</tr>
 		</table>	
 	</section>
@@ -55,12 +55,18 @@
 		<a href="javascript:void(0);" class="boton volver">&lt;</a>
 		<br>
 		<br>
-		<h1>Créditos</h1>
+		<h1 class="titulo">Créditos</h1>
 		<br>
-		<img src="imgs/Avengers-Black-Widow-icon.png" alt="">&nbsp;&nbsp;
-		<span>Ana María Agudelo / Estudiante</span><br>
-		<img src="imgs/Avengers-Iron-Man-icon.png" alt="">&nbsp;&nbsp;
-		<span>Julián Esteban Durango / Estudiante</span><br>
+		<table class="default">
+      	  <tr>
+          	<td><img class="img_foto" src="img/foto_ana.jpeg" alt=""></td>
+          	<td class=texto_indice><b>Ana María Agudelo / Estudiante</b><br>Cursa séptimo semestre de ingeniería de sistemas en la Universidad Pontificia Bolivariana.<br>Contacto: 3174905643</dfn>&nbsp;&nbsp;</td>
+          </tr>
+          <tr>
+          	<td><img class="img_foto" src="img/foto.png" alt=""></td>
+          	<td class=texto_indice><b>Julián Esteban Durango / Estudiante</b><br>Cursa séptimo semestre de ingeniería de sistemas en la Universidad Pontificia Bolivariana.<br>Contacto: 3145169979</dfn>&nbsp;&nbsp;</td>
+          </tr>
+    	</table>
 	</section>
 
 	<!-- Lugares -->
@@ -74,31 +80,201 @@
 		<p>
 			Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti, in magnam id eum vitae veniam magni non necessitatibus ducimus odit cupiditate sequi sapiente sit recusandae culpa vel fuga asperiores cum!
 		</p>
-		<!--a href="javascript:void(0);" class="boton">&lt;</a>&nbsp;&nbsp;<a href="javascript:void(0);" class="boton">&gt;</a-->
+		<!--a href="javascript:void(0);" class="boton">&lt;</a>&nbsp;&nbsp;<a href="javascript:void(0);" class="boton">&gt;</a
+		
+		<div class="image"><span><img class="img_ave" src="img/colibri.jpg" alt=""></span></div>
+          	<div class="preview-box">
+          		<div class="details">
+            		<span class="title">Imagen <p class="current-img"></p> de <p class="total-img"></p></span>
+            		<span class="icon fas fa-times"></span>
+          		</div>
+          		<div class="image-box">
+          			<div class="slide prev"><i class="fas fa-angle-left"></i></div>
+          			<div class="slide next"><i class="fas fa-angle-right"></i></div>
+            		<img src="" alt="">
+          		</div>
+         	</div>
+          	<div class="shadow"></div>-->
 	</section>
 
-	<!-- Animales -->
-	<section id="animales" class="animate__animated ocultar">
-		<a href="javascript:void(0);" class="boton volver">&lt;</a>
-		<br>
-		<br>
-		<h1 class="titulo">Anfibios</h1>
-		<br>
-		<table class="default">
-			<tr>
-				<td><img src="img/ranita.jpg" class="img_anfibio" alt=""></td>
-    			<td class=texto_anfibio><b><dfn>Ranita venenosa del Valle del Cauca</b><br>Vive en el estrato más bajo del bosque, entre los 1.580 y 2.100 m de altitud. Deposita sus huevos entre la hojarasca y las larvas se desarrollan en bromelias.</dfn>&nbsp;&nbsp;</td>
-  			</tr>
-  			<tr>
-				<td><img src="img/rana.jpg" class="img_anfibio" alt=""></td>
-    			<td class=texto_anfibio><b><dfn>Rana dardo dorada</b><br>Este anfibio es actualmente considerado el animal más tóxico y venenoso del mundo. Su hábitat son las selvas húmedas de los departamentos del Chocó, Cauca y Valle del Cauca en la costa pacífica de Colombia</dfn>&nbsp;&nbsp;</td>
-  			</tr>
-  			<tr>
-				<td><img src="img/rana_lehmann.jpg" class="img_anfibio" alt=""></td>
-    			<td class=texto_anfibio><b><dfn>Rana venenosa de Lehmann</b><br>Su hábitat natural se conforma de bosque húmedo submontano subtropical o tropical.​ Cría en las bromeliáceas.​</dfn>&nbsp;&nbsp;</td>
-  			</tr>
-		</table>
-	</section>
-	<script src="js/main.js"></script>
+	<!-- Anfibios -->
+	<section id="anfibios" class="animate__animated ocultar">
+    <a href="javascript:void(0);" class="boton volver">&lt;</a>
+    <br>
+    <br>
+    <h1 class="titulo">Anfibios</h1>
+    <br>
+    <table class="default">
+      <tr>
+          <td><img class="img_anfibio" src="img/ranita.jpg" alt=""></td>
+          <td class=texto_indice><b><dfn>Ranita venenosa del Valle del Cauca</b><br>Vive en el estrato más bajo del bosque, entre los 1.580 y 2.100 m de altitud. Deposita sus huevos entre la hojarasca y las larvas se desarrollan en bromelias.</dfn>&nbsp;&nbsp;</td>
+        </tr>
+        <tr>
+          <td><img class="img_anfibio" src="img/rana.jpg" alt=""></td>
+          <td class=texto_indice><b><dfn>Rana dardo dorada</b><br>Este anfibio es actualmente considerado el animal más tóxico y venenoso del mundo. Su hábitat son las selvas húmedas de los departamentos del Chocó, Cauca y Valle del Cauca en la costa pacífica de Colombia</dfn>&nbsp;&nbsp;</td>
+        </tr>
+        <tr>
+          <td><img class="img_anfibio" src="img/rana_lehmann.jpg" alt=""></td>
+          <td class=texto_indice><b><dfn>Rana venenosa de Lehmann</b><br>Su hábitat natural se conforma de bosque húmedo submontano subtropical o tropical.​ Cría en las bromeliáceas.​</dfn>&nbsp;&nbsp;</td>
+        </tr>
+        <tr>
+          <td><img class="img_anfibio" src="img/rana_cristal.jpg" alt=""></td>
+          <td class=texto_indice><b><dfn>Rana de Cristal Gigante de Magdalena</b><br>Su hábitat natural se conforma de bosque húmedo submontano subtropical o tropical.​ Cría en las bromeliáceas.​</dfn>&nbsp;&nbsp;</td>
+        </tr>
+    </table>
+  </section>
+
+  <!-- Aves -->
+	<section id="aves" class="animate__animated ocultar">
+    <a href="javascript:void(0);" class="boton volver">&lt;</a>
+    <br>
+    <br>
+    <h1 class="titulo">Aves</h1>
+    <br>
+    <table class="default">
+      <tr>
+          <td><img class="img_ave" src="img/cacique.jpg" alt=""></td>
+          <td class=texto_indice><b><dfn>Cacique candela</b><br>Vive en el estrato más bajo del bosque, entre los 1.580 y 2.100 m de altitud. Deposita sus huevos entre la hojarasca y las larvas se desarrollan en bromelias.</dfn>&nbsp;&nbsp;</td>
+        </tr>
+        <tr>
+          <td><img class="img_ave" src="img/chango.jpg" alt=""></td>
+          <td class=texto_indice><b><dfn>Churrin del Magdalena</b><br>Este anfibio es actualmente considerado el animal más tóxico y venenoso del mundo. Su hábitat son las selvas húmedas de los departamentos del Chocó, Cauca y Valle del Cauca en la costa pacífica de Colombia</dfn>&nbsp;&nbsp;</td>
+        </tr>
+        <tr>
+        <tr>
+          <td><img class="img_ave" src="img/churrin.jpg" alt=""></td>
+          <td class=texto_indice><b><dfn>Churrin del Magdalena</b><br>Este anfibio es actualmente considerado el animal más tóxico y venenoso del mundo. Su hábitat son las selvas húmedas de los departamentos del Chocó, Cauca y Valle del Cauca en la costa pacífica de Colombia</dfn>&nbsp;&nbsp;</td>
+        </tr>
+        <tr>
+          <td><img class="img_ave" src="img/colibri.jpg" alt=""></td>
+          <td class=texto_indice><b><dfn>Colibrí florido</b><br>Su hábitat natural se conforma de bosque húmedo submontano subtropical o tropical.​ Cría en las bromeliáceas.​</dfn>&nbsp;&nbsp;</td>
+        </tr>
+        <tr>
+          <td><img class="img_ave" src="img/manglero.jpg" alt=""></td>
+          <td class=texto_indice><b><dfn>Colibrí florido</b><br>Su hábitat natural se conforma de bosque húmedo submontano subtropical o tropical.​ Cría en las bromeliáceas.​</dfn>&nbsp;&nbsp;</td>
+        </tr>
+        <tr>
+          <td><img class="img_ave" src="img/mielero.jpg" alt=""></td>
+          <td class=texto_indice><b><dfn>Colibrí florido</b><br>Su hábitat natural se conforma de bosque húmedo submontano subtropical o tropical.​ Cría en las bromeliáceas.​</dfn>&nbsp;&nbsp;</td>
+        </tr>
+        <tr>
+          <td><img class="img_ave" src="img/paujil.jpg" alt=""></td>
+          <td class=texto_indice><b><dfn>Colibrí florido</b><br>Su hábitat natural se conforma de bosque húmedo submontano subtropical o tropical.​ Cría en las bromeliáceas.​</dfn>&nbsp;&nbsp;</td>
+        </tr>
+        <tr>
+          <td><img class="img_ave" src="img/pinzon.jpg" alt=""></td>
+          <td class=texto_indice><b><dfn>Colibrí florido</b><br>Su hábitat natural se conforma de bosque húmedo submontano subtropical o tropical.​ Cría en las bromeliáceas.​</dfn>&nbsp;&nbsp;</td>
+        </tr>
+        <tr>
+          <td><img class="img_ave" src="img/principe.jpeg" alt=""></td>
+          <td class=texto_indice><b><dfn>Colibrí florido</b><br>Su hábitat natural se conforma de bosque húmedo submontano subtropical o tropical.​ Cría en las bromeliáceas.​</dfn>&nbsp;&nbsp;</td>
+        </tr>
+        <tr>
+          <td><img class="img_ave" src="img/nevada.jpg" alt=""></td>
+          <td class=texto_indice><b><dfn>Colibrí florido</b><br>Su hábitat natural se conforma de bosque húmedo submontano subtropical o tropical.​ Cría en las bromeliáceas.​</dfn>&nbsp;&nbsp;</td>
+        </tr>
+        <tr>
+          <td><img class="img_ave" src="img/tangara.jpg" alt=""></td>
+          <td class=texto_indice><b><dfn>Colibrí florido</b><br>Su hábitat natural se conforma de bosque húmedo submontano subtropical o tropical.​ Cría en las bromeliáceas.​</dfn>&nbsp;&nbsp;</td>
+        </tr>
+    </table>
+  </section>
+
+  <!-- Mamiferos -->
+	<section id="mamiferos" class="animate__animated ocultar">
+    <a href="javascript:void(0);" class="boton volver">&lt;</a>
+    <br>
+    <br>
+    <h1 class="titulo">Mamíferos</h1>
+    <br>
+    <table class="default">
+      <tr>
+          <td><img class="img_ave" src="img/mono.jpg" alt=""></td>
+          <td class=texto_indice><b><dfn>Mono lanudo colombiano</b><br>Vive en el estrato más bajo del bosque, entre los 1.580 y 2.100 m de altitud. Deposita sus huevos entre la hojarasca y las larvas se desarrollan en bromelias.</dfn>&nbsp;&nbsp;</td>
+        </tr>
+        <tr>
+          <td><img class="img_ave" src="img/mono_titi.jpg" alt=""></td>
+          <td class=texto_indice><b><dfn>Mono tití del Caquetá</b><br>Este anfibio es actualmente considerado el animal más tóxico y venenoso del mundo. Su hábitat son las selvas húmedas de los departamentos del Chocó, Cauca y Valle del Cauca en la costa pacífica de Colombia</dfn>&nbsp;&nbsp;</td>
+        </tr>
+        <tr>
+          <td><img class="img_ave" src="img/murcielago.jpg" alt=""></td>
+          <td class=texto_indice><b><dfn>Murciélago de alas de saco antioqueño</b><br>Su hábitat natural se conforma de bosque húmedo submontano subtropical o tropical.​ Cría en las bromeliáceas.​</dfn>&nbsp;&nbsp;</td>
+        </tr>
+        <tr>
+          <td><img class="img_ave" src="img/titi.jpg" alt=""></td>
+          <td class=texto_indice><b><dfn>Tití cabeza de algodón</b><br>Su hábitat natural se conforma de bosque húmedo submontano subtropical o tropical.​ Cría en las bromeliáceas.​</dfn>&nbsp;&nbsp;</td>
+        </tr>
+        <tr>
+          <td><img class="img_ave" src="img/titi_gris.jpg" alt=""></td>
+          <td class=texto_indice><b><dfn>Tití gris</b><br>Su hábitat natural se conforma de bosque húmedo submontano subtropical o tropical.​ Cría en las bromeliáceas.​</dfn>&nbsp;&nbsp;</td>
+        </tr>
+    </table>
+  </section>
+
+  <!-- Mariposas -->
+	<section id="mariposas" class="animate__animated ocultar">
+    <a href="javascript:void(0);" class="boton volver">&lt;</a>
+    <br>
+    <br>
+    <h1 class="titulo">Mariposas</h1>
+    <br>
+    <table class="default">
+      <tr>
+          <td><img class="img_ave" src="img/bolla.jpg" alt=""></td>
+          <td class=texto_indice><b><dfn>Bolla antha</b><br>Vive en el estrato más bajo del bosque, entre los 1.580 y 2.100 m de altitud. Deposita sus huevos entre la hojarasca y las larvas se desarrollan en bromelias.</dfn>&nbsp;&nbsp;</td>
+        </tr>
+        <tr>
+          <td><img class="img_ave" src="img/mariposa.jpg" alt=""></td>
+          <td class=texto_indice><b><dfn>Phocides</b><br>Este anfibio es actualmente considerado el animal más tóxico y venenoso del mundo. Su hábitat son las selvas húmedas de los departamentos del Chocó, Cauca y Valle del Cauca en la costa pacífica de Colombia</dfn>&nbsp;&nbsp;</td>
+        </tr>
+        <tr>
+          <td><img class="img_ave" src="img/passova.jpg" alt=""></td>
+          <td class=texto_indice><b><dfn>Passova</b><br>Su hábitat natural se conforma de bosque húmedo submontano subtropical o tropical.​ Cría en las bromeliáceas.​</dfn>&nbsp;&nbsp;</td>
+        </tr>
+    </table>
+  </section>
+
+  <!-- Peces -->
+	<section id="peces" class="animate__animated ocultar">
+    <a href="javascript:void(0);" class="boton volver">&lt;</a>
+    <br>
+    <br>
+    <h1 class="titulo">Peces</h1>
+    <br>
+    <table class="default">
+      <tr>
+          <td><img class="img_ave" src="img/bagre.jpg" alt=""></td>
+          <td class=texto_indice><b><dfn>Bagre rayado del Magdalena</b><br>Vive en el estrato más bajo del bosque, entre los 1.580 y 2.100 m de altitud. Deposita sus huevos entre la hojarasca y las larvas se desarrollan en bromelias.</dfn>&nbsp;&nbsp;</td>
+        </tr>
+    </table>
+  </section>
+
+  <!-- Reptiles -->
+	<section id="reptiles" class="animate__animated ocultar">
+    <a href="javascript:void(0);" class="boton volver">&lt;</a>
+    <br>
+    <br>
+    <h1 class="titulo">Reptiles</h1>
+    <br>
+    <table class="default">
+      <tr>
+          <td><img class="img_ave" src="img/lagartija.jpg" alt=""></td>
+          <td class=texto_indice><b><dfn>Lagartija de Malpelo</b><br>Vive en el estrato más bajo del bosque, entre los 1.580 y 2.100 m de altitud. Deposita sus huevos entre la hojarasca y las larvas se desarrollan en bromelias.</dfn>&nbsp;&nbsp;</td>
+        </tr>
+        <tr>
+          <td><img class="img_ave" src="img/lagarto_azul.jpg" alt=""></td>
+          <td class=texto_indice><b><dfn>Lagarto azul de Gorgona</b><br>Vive en el estrato más bajo del bosque, entre los 1.580 y 2.100 m de altitud. Deposita sus huevos entre la hojarasca y las larvas se desarrollan en bromelias.</dfn>&nbsp;&nbsp;</td>
+        </tr>
+        <tr>
+          <td><img class="img_ave" src="img/lagarto.jpg" alt=""></td>
+          <td class=texto_indice><b><dfn>Lagarto punteado</b><br>Vive en el estrato más bajo del bosque, entre los 1.580 y 2.100 m de altitud. Deposita sus huevos entre la hojarasca y las larvas se desarrollan en bromelias.</dfn>&nbsp;&nbsp;</td>
+        </tr>
+        <tr>
+          <td><img class="img_ave" src="img/serpiente.jpg" alt=""></td>
+          <td class=texto_indice><b><dfn>Serpiente sabanera</b><br>Vive en el estrato más bajo del bosque, entre los 1.580 y 2.100 m de altitud. Deposita sus huevos entre la hojarasca y las larvas se desarrollan en bromelias.</dfn>&nbsp;&nbsp;</td>
+        </tr>
+    </table>
+  </section>
+  <script src="js/main.js"></script>
 </body>
 </html>
