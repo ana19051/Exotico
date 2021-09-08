@@ -1,3 +1,4 @@
 # Exotico
 ### Aplicación híbrida que permite a los usuarios conocer acerca de los animales endémicos de Colombia, son animales únicos en la región. En la aplicación se podrán visualizar la información básica de estos.
+La aplicación cuenta con diferentes pantallas, un splash donde se identifica el logo realizado por el equipo, una ventana principal que contiene la conexión con las demas ventanas, una ventana de animales donde se dividen según su categoría y cada botón lleva a otra ventana donde está la infomación de cada animal y tiene ayuda fotográfica, una ventana de lugares donde se puede visualizar la información donde se pueden encontar estos animales endémicos y por último una ventana de quienes somos donde se describen los integantes de la aplicación. 
 ### Se pueden encontrar las versiones del programa a medida que se ejecuten
