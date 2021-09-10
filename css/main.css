@@ -15,8 +15,6 @@ body {
   font-size: 40px;
   color: #EDEDED;
   -webkit-text-stroke: 2px #163D26;
-  /*margin-bottom: 190px;
-  /*font-style: italic;*/
 }
 
 section {
@@ -80,7 +78,6 @@ section {
 
 .boton_indice {
   background-color: #146F51;
-  /*background-image: url("img/anfibio.jpg");*/
   color: white;
   font-family: Barlow Condensed;
   font-size: 18px;
@@ -109,7 +106,6 @@ section {
   overflow: scroll;
 }
 #lugares p {
-  margin: 25px;
   text-align: left;
 }
 
@@ -118,11 +114,93 @@ section {
 
 }
 .img_lugares{
-  display: block;
+    display: block;
     width: 100px;
     height: 100px;
     padding: 10px;
     cursor: pointer;
+}
+
+.preview-box{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0.9);
+  background: #fff;
+  max-width: 300px;
+  width: 100%;
+  z-index: 5;
+  opacity: 0;
+  pointer-events: none;
+  border-radius: 3px;
+  padding: 0 5px 5px 5px;
+  box-shadow: 0px 0px 15px rgba(0,0,0,0.2);
+}
+.preview-box.show{
+  opacity: 1;
+  pointer-events: auto;
+  transform: translate(-50%, -50%) scale(1);
+  transition: all 0.3s ease;
+}
+.preview-box .details{
+  display: flex;
+  align-items: center;
+  padding: 12px 15px 12px 10px;
+  justify-content: space-between;
+}
+.preview-box .details .title{
+  display: flex;
+  font-size: 18px;
+  font-weight: 400;
+}
+.details .title p{
+  margin: 0 5px;
+}
+.details .title p.current-img{
+  font-weight: 500;
+}
+.details .icon{
+  color: #007bff;
+  font-size: 20px;
+  cursor: pointer;
+}
+.preview-box .image-box{
+  display: flex;
+  width: 100%;
+  position: relative;
+}
+.image-box .slide{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #fff;
+  font-size: 30px;
+  cursor: pointer;
+  height: 50px;
+  width: 60px;
+  line-height: 50px;
+  text-align: center;
+  border-radius: 3px;
+}
+.slide.prev{
+  left: 0px;
+}
+.slide.next{
+  right: 0px;
+}
+.image-box img{
+  width: 100%;
+  border-radius: 0 0 3px 3px;
+}
+.shadow{
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 2;
+  display: none;
+  background: rgba(0,0,0,0.45);
 }
 
 #quienes {
